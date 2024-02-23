@@ -10,74 +10,74 @@ int main() {
     setlocale(LC_ALL,"");
     int s, e, c;
 
-    printf("*****ESTADIO__CUSCATLÁN*****\n");
+    printf("*****ESTADIO__CUSCATLï¿½N*****\n");
     printf("\n Sector                        Costo de la entrada\n");
-    printf("\n 1) Sol general                    $3");
+    printf("\n 1) Sol general                    $4");
     printf("\n 2) Sol preferente                 $5");
     printf("\n 3) Sombra                         $8");
     printf("\n 4) Tribuna                        $15");
     printf("\n 5) Platea                         $20");
     printf("\n\n 0) SALIR");
 
-    printf("\n\nIngrese el número del sector que desea adquirir: ");
+    printf("\n\nIngrese el nï¿½mero del sector que desea adquirir: ");
     scanf(" %d", &s);
 while (s>5 || s<0){
-printf("\nEl número ingresado es invalido.\n");
-printf("\nIngrese el número del sector que desea adquirir: ");
+printf("\nEl nï¿½mero ingresado es invalido.\n");
+printf("\nIngrese el nï¿½mero del sector que desea adquirir: ");
          scanf(" %d", &s);
 }
 
     switch(s){
         case 1:
-            printf("\n¿Cuántos boletos desea adquirir en Sol general? ");
+            printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Sol general? ");
             scanf(" %d", &e);
             while (e<1){
-                printf("\nEl número ingresado es invalido.\n");
-                printf("\n¿Cuántos boletos desea adquirir en Sol general? ");
+                printf("\nEl nï¿½mero ingresado es invalido.\n");
+                printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Sol general? ");
                 scanf(" %d", &e);
             }
             c=e*3;
             printf("\nTotal a pagar: $%d\n",c);
             break;
         case 2:
-            printf("\n¿Cuántos boletos desea adquirir en Sol preferente? ");
+            printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Sol preferente? ");
             scanf(" %d", &e);
             while (e<1){
-                printf("\nEl número ingresado es invalido.\n");
-                printf("\n¿Cuántos boletos desea adquirir en Sol preferente? ");
+                printf("\nEl nï¿½mero ingresado es invalido.\n");
+                printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Sol preferente? ");
                 scanf(" %d", &e);
             }
             c=e*5;
             printf("\nTotal a pagar: $%d\n",c);
             break;
         case 3:
-            printf("\n¿Cuántos boletos desea adquirir en Sombra? ");
+            printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Sombra? ");
             scanf(" %d", &e);
             while (e<1){
-                printf("\nEl número ingresado es invalido.\n");
-                printf("\n¿Cuántos boletos desea adquirir en Sombra? ");
+                printf("\nEl nï¿½mero ingresado es invalido.\n");
+                printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Sombra? ");
                 scanf(" %d", &e);
             }
             c=e*8;
             printf("\nTotal a pagar: $%d\n",c);
             break;
         case 4:
-            printf("\n¿Cuántos boletos desea adquirir en Tribuna? ");
+            printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Tribuna? ");
             scanf(" %d", &e);
             while (e<1){
-                printf("\nEl número ingresado es invalido.\n");
-                printf("\n¿Cuántos boletos desea adquirir en Tribuna? ");
+                printf("\nEl nï¿½mero ingresado es invalido.\n");
+                printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Tribuna? ");
                 scanf(" %d", &e);
             }
             c=e*15;
             printf("\nTotal a pagar: $%d\n",c);
             break;
         case 5:
-            printf("\n¿Cuántos boletos desea adquirir en Platea? ");
+            printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Platea? ");
             scanf(" %d", &e);
             while (e<1){
-                printf("\nEl número ingresado es invalido.\n");
-                printf("\n¿Cuántos boletos desea adquirir en Platea? ");
+                printf("\nEl nï¿½mero ingresado es invalido.\n");
+                printf("\nï¿½Cuï¿½ntos boletos desea adquirir en Platea? ");
                 scanf(" %d", &e);
             }
             c=e*20;
